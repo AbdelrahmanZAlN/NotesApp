@@ -16,13 +16,13 @@
                 <rect key="frame" x="0.0" y="0.0" width="394" height="80"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zY-EI-25y" userLabel="Title">
-                        <rect key="frame" x="16" y="0.0" width="362" height="49.666666666666664"/>
-                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zY-EI-25y" userLabel="Title">
+                        <rect key="frame" x="16" y="0.0" width="350" height="47"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KzC-10-rsb">
+                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KzC-10-rsb">
                         <rect key="frame" x="16" y="54.666666666666664" width="362" height="20.333333333333336"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcg-y5-suK" userLabel="Content Note">
@@ -57,7 +57,7 @@
                 <outlet property="createdAtLabel" destination="oux-9d-C5P" id="XHu-ed-aPX"/>
                 <outlet property="titleLabel" destination="3zY-EI-25y" id="aGR-PJ-5yH"/>
             </connections>
-            <point key="canvasLocation" x="-24.427480916030532" y="8.8028169014084519"/>
+            <point key="canvasLocation" x="-24.427480916030532" y="8.4507042253521139"/>
         </tableViewCell>
     </objects>
 </document>
